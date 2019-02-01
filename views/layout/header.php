@@ -185,9 +185,9 @@
               </span>
             </a>
         <ul class="treeview-menu">
-          <li><a href="/views/Admin/AddStudent.php">Add Student</a></li>
-          <li><a href="#">Update Student Details</a></li>
-          <li><a href="#">View Student Details</a></li>
+          <li><a href="" onclick="route('AddStudent')">Add Student</a></li>
+          <li><a href="">Update Student Details</a></li>
+          <li><a href="">View Student Details</a></li>
         </ul>
       </li>
       <!-- feedbacks -->
@@ -198,6 +198,7 @@
         </aside>
 
     </div>
+    <script src="/assets/Js/adminFunction.js"></script>
 
     <!-- main container -->
    

@@ -1,14 +1,19 @@
 <?php
-$route=$_SERVER['REQUEST_URI'];
-echo $route;
-include('../layout/header.php');
+
+$datapost=["code"=>404,"message"=>"not found"];
+header("content-type:application/json");
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: *");
+
+echo "fucjjjjj";
+switch($_SERVER["REQUEST_METHOD"]){
+    case "GET":
+    ?>
+    <h1>This is ADd Student</h1>
+
+    <?php
+    
+
+}
+
 ?>
-
-
-
-<div class="content-wrapper"> 
-This is Add page of student    
-<div>
-<?php 
-include('../layout/footer.php');
- ?>
